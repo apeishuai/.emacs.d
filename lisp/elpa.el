@@ -43,5 +43,13 @@
   (add-hook 'c++-mode-hook #'lsp-clangd-c++-enable)
   (add-hook 'objc-mode-hook #'lsp-clangd-objc-enable))
 
+(use-package graphviz-dot-mode
+  :ensure t
+  :config
+  (setq graphviz-dot-indent-width 4))
+
+(use-package cnfonts
+  :ensure t
+)
 
 (provide 'elpa)
