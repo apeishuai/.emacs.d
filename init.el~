@@ -1,22 +1,38 @@
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
+(add-to-list 'load-path
+	     (expand-file-name "lisp" user-emacs-directory))
 
-(setq inhibit-startup-screen t)
 
-(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-                         ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+(require 'racket-mode)
+(add-to-list 'auto-mode-alist '("\\.rkt\\'" . racket-mode))
 
-(setq package-check-signature nil)
-(require 'package)
-(unless (bound-and-true-p package--initialized)
-  (package-initialize))
+(require 'startup)
+(require 'init-elpa)
+(require 'my-find-file)
+(require 'ChaDefuApp)
+(require 'init-racket)
+(require 'init-latexx)
+(require 'init-lsp)
 
-(unless package-archive-contents
-  (package-refresh-contents))
 
-(unless (package-installed-p 'use-package)
-  (package-refresh-contents)
-  (package-install 'use-package))
-
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(TeX-view-program-selection
+   '(((output-dvi has-no-display-manager)
+      "dvi2tty")
+     ((output-dvi style-pstricks)
+      "dvips and gv")
+     (output-dvi "xdvi")
+     (output-pdf "Evince")
+     (output-html "xdg-open")))
+ '(package-selected-packages
+   '(lsp-mode cdlatex auto-complete-auctex geiser auctex keyfreq ivy use-package)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 

@@ -1,0 +1,25 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".baidu.com"
+  [url-cookie "PSTM" "1610879442" "五 2月 04 13:44:50 2089 GMT" "/" ".baidu.com" nil]
+  [url-cookie "BIDUPSID" "507E1C9D4F10BDB33DE77D3013A4D5AC" "五 2月 04 13:44:50 2089 GMT" "/" ".baidu.com" nil]
+  [url-cookie "BAIDUID" "507E1C9D4F10BDB3F132ACD042A415D0:FG=1" "一 1月 17 10:30:43 2022 GMT" "/" ".baidu.com" nil])
+ (".zhihu.com"
+  [url-cookie "_zap" "0e33233c-5afc-4a70-bdc0-c550f228e301" "Tue, 17 Jan 2023 10:31:03 GMT" "/" ".zhihu.com" nil])
+ ("www.huatu.com"
+  [url-cookie "acw_tc" "2760826b16108987321217841e986ecd83c8af103bcebf64e9fe0518c9b1fc" "日 1月 17 16:22:12 2021 GMT" "/" "www.huatu.com" nil])
+ ("zhihu.com"
+  [url-cookie "d_c0" "AKActycNhBKPToFGSoGBZcke7s1fiF089dU=|1610879463" "Wed, 17 Jan 2024 10:31:03 GMT" "/" "zhihu.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '(("github.com"
+  [url-cookie "logged_in" "no" "Mon, 17 Jan 2022 11:03:58 GMT" "/" "github.com" t]
+  [url-cookie "_octo" "GH1.1.1927958475.1610881438" "Mon, 17 Jan 2022 11:03:58 GMT" "/" "github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

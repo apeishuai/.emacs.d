@@ -1,6 +1,0 @@
-
-
-
-
-
-(provide 'program)

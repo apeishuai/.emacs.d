@@ -1,0 +1,18 @@
+(use-package lsp-mode
+    :ensure t
+	     )
+(use-package flycheck
+    :ensure t)
+
+(use-package company-lsp
+    :ensure t)
+
+(use-package lsp-ui
+    :ensure t)
+
+
+(provide 'init-lsp)
+
+
+
+
