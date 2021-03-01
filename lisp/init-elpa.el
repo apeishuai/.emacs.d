@@ -14,6 +14,10 @@
 (use-package try
   :ensure t)
 
+(use-package company
+  :ensure t
+  )
+ 
 (use-package which-key
   :ensure t
   :config(which-key-mode))

@@ -3,6 +3,7 @@
 
 (setq inhibit-startup-screen t)
 (split-window-right)
+(auto-image-file-mode t)
 
 (other-window 1)
 (switch-to-next-buffer)
@@ -11,5 +12,8 @@
 
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil))) 
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
+
+
 (provide 'startup)
+
 

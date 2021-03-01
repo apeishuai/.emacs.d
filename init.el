@@ -28,7 +28,7 @@
      (output-pdf "Evince")
      (output-html "xdg-open")))
  '(package-selected-packages
-   '(ccls lsp-mode cdlatex auto-complete-auctex geiser auctex keyfreq ivy use-package)))
+   '(auto-complete auto-company ccls lsp-mode cdlatex auto-complete-auctex geiser auctex keyfreq ivy use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
