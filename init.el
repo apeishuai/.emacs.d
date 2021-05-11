@@ -12,7 +12,7 @@
 (require 'init-racket)
 (require 'init-latexx)
 (require 'init-lsp)
-
+(require 'iimage)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -28,7 +28,7 @@
      (output-pdf "Evince")
      (output-html "xdg-open")))
  '(package-selected-packages
-   '(auto-complete auto-company ccls lsp-mode cdlatex auto-complete-auctex geiser auctex keyfreq ivy use-package)))
+   '(org-download auto-complete auto-company ccls lsp-mode cdlatex auto-complete-auctex geiser auctex keyfreq ivy use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

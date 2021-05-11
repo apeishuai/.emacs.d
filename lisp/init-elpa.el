@@ -10,6 +10,13 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+(use-package org-download
+  :ensure t
+  :bind ("C-S-y" . org-download-screenshot)
+  :config
+  (require 'org-download)
+  (add-hook 'dired-mode-hook 'org-download-enable))
+
 
 (use-package try
   :ensure t)
