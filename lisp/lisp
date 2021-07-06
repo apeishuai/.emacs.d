@@ -1,0 +1,16 @@
+  /home/shuai/.emacs.d/lisp:
+  总用量 56
+  drwxr-xr-x  2 shuai shuai 4096  7月  6 21:45 .
+  drwxr-xr-x 11 shuai shuai 4096  7月  6 21:46 ..
+  -rw-r--r--  1 shuai shuai 3998  5月 22 20:52 ChaDefuApp.el
+  -rw-r--r--  1 shuai shuai 1432  2月 27 15:33 company-mytags.el
+  -rw-r--r--  1 shuai shuai 2870  7月  6 21:45 config_Gtd.el
+  -rw-r--r--  1 shuai shuai 2866  7月  4 23:41 config_Gtd.el~
+  -rw-r--r--  1 shuai shuai 1519  7月  5 00:30 config_Rss.el
+  -rw-r--r--  1 shuai shuai  964  5月 17 23:51 init-latexx.el
+  -rw-r--r--  1 shuai shuai   26  1月 18 18:27 init-lsp.el
+  -rw-r--r--  1 shuai shuai   76  1月  9 22:01 init-python.el
+  -rw-r--r--  1 shuai shuai  276  1月 13 01:38 init-racket.el
+  -rw-r--r--  1 shuai shuai 1931  6月  5 09:28 M_elpa.el
+  -rw-r--r--  1 shuai shuai 2889  2月 28 08:30 my-find-file.el
+  -rw-r--r--  1 shuai shuai 1058  7月  5 08:02 startup.el

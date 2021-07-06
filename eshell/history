@@ -1,0 +1,128 @@
+nikola github_depoly
+nikola github_deploy
+clear
+ls
+cd posts/
+ls
+rm tt.org
+ls
+rm tt1.rst 
+ls
+clear
+ls
+rm tt.org\~ 
+ls
+clear
+nikola new_post
+clear
+cd ..
+nikola build
+git add .
+git commit -m "second test"
+git push origin main
+nikola github_delay
+nikola github_deploy
+clear
+nikola new_post
+nikola new_post -e
+ls
+cd posts/
+ls
+cd ..
+clear
+ls
+nikola new_post -e
+ls
+cd posts/
+ls
+rm test.org 
+clear
+ls
+rm how-to-build-the-blog.org 
+clear
+ls
+exit
+cd .
+cd ..
+nikola build
+nikola github-depoly
+nikola github_deply
+nikola github_deploy
+ls
+mkdir DataWhale_DataAnalysis
+ls
+cd DataWhale_DataAnalysis/
+ls
+git clone https://github.com/datawhalechina/hands-on-data-analysis.git
+exit
+nikola new_post -e
+nikola new_post 
+cd posq
+cd posts/
+ls
+clear
+ls
+rm shi-jian-guan-li.org 
+nikola new_post
+ls
+rm how_to_set_blog.org
+ls
+exit
+ls
+nikola build
+nikola github_deploy
+nikola new_post
+exit
+nikola build
+nikola github_deploy
+exit
+ls
+vi sources.list
+ls
+rm *~
+ls
+clear
+ls
+rm #2*
+ls
+rm #2021-03-17.org#
+ls
+rm '#2021-03-17.org#'
+ls
+rm '#2021-03-27.org#'
+clear
+ls
+ls > Journal.org
+ls
+vi Journal.org 
+nikola new_post -e
+ls
+cd ..
+ls
+cd wxfs\ blog/
+nikola new_post -e
+ls
+cd posts/
+ls
+clear
+ls
+exit
+ls
+exit
+ls > Journal.org
+ls
+exit
+ls
+vi Journal.org 
+vi Journal.org 
+cd ..
+cd book-notes/
+mv 长尾理论_wait.org ../Reference/
+exit
+cd ..
+cd book-notes/
+clear
+ls
+mv * ../Reference/
+clear
+exit

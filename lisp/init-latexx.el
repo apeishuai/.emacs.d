@@ -33,10 +33,9 @@
 
 
 ;;cdltax conf
-(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
-(add-hook 'cdlatex-mode "cdlatex" "CDLaTeX Mode" t)
-(add-hook 'turn-on-cdlatex "cdlatex" "CDLaTeX Mode" nil)
-
+;;(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
+;;(add-hook 'cdlatex-mode "cdlatex" "CDLaTeX Mode" t)
+;;(add-hook 'turn-on-cdlatex "cdlatex" "CDLaTeX Mode" nil)
 
 
 

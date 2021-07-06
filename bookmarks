@@ -1,0 +1,24 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored-marker"
+ (filename . "~/shuai-files/GTD/projects.org")
+ (front-context-string . "** TODO 无穷级数 \n/E")
+ (rear-context-string . "-07-06 二 21:34]\n")
+ (position . 376))
+("elfeed-all"
+ (location . "@6-months-ago +unread")
+ (tags "unread")
+ (handler . elfeed-search-bookmark-handler))
+("org-refile-last-stored"
+ (filename . "~/shuai-files/GTD/projects.org")
+ (front-context-string . "** TODO 无穷级数 \n/E")
+ (rear-context-string . "-07-06 二 21:34]\n")
+ (position . 376))
+("org-capture-last-stored"
+ (filename . "~/shuai-files/GTD/inbox.org")
+ (front-context-string . "* TODO 无穷级数 \n/En")
+ (rear-context-string . "-07-06 二 21:21]\n")
+ (position . 215))
+)
