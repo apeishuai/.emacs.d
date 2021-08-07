@@ -4,21 +4,21 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
  (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "** TODO 无穷级数 \n/E")
- (rear-context-string . "-07-06 二 21:34]\n")
- (position . 376))
+ (front-context-string . "** TODO Emacs GT")
+ (rear-context-string . "8-07 六 23:08]\n\n\n")
+ (position . 2868))
 ("elfeed-all"
  (location . "@6-months-ago +unread")
  (tags "unread")
  (handler . elfeed-search-bookmark-handler))
 ("org-refile-last-stored"
  (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "** TODO 无穷级数 \n/E")
- (rear-context-string . "-07-06 二 21:34]\n")
- (position . 376))
+ (front-context-string . "** TODO Emacs GT")
+ (rear-context-string . "8-07 六 23:08]\n\n\n")
+ (position . 2868))
 ("org-capture-last-stored"
  (filename . "~/shuai-files/GTD/inbox.org")
- (front-context-string . "* TODO 无穷级数 \n/En")
- (rear-context-string . "-07-06 二 21:21]\n")
- (position . 215))
+ (front-context-string . "* TODO Emacs GTD")
+ (rear-context-string . "-07-29 四 22:57]\n")
+ (position . 1007))
 )

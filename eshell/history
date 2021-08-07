@@ -1,21 +1,3 @@
-nikola github_depoly
-nikola github_deploy
-clear
-ls
-cd posts/
-ls
-rm tt.org
-ls
-rm tt1.rst 
-ls
-clear
-ls
-rm tt.org\~ 
-ls
-clear
-nikola new_post
-clear
-cd ..
 nikola build
 git add .
 git commit -m "second test"
@@ -125,4 +107,22 @@ clear
 ls
 mv * ../Reference/
 clear
+exit
+ls
+exit
+rm -rf connect_with_Girl/
+exit
+ls
+gcc SqList.c -o SqList.exe
+./SqList.exe 
+clear
+exit
+gcc SqList.c -o SqList.exe
+exit
+gcc SqList.c -o SqList.exe
+./SqList.exe 
+exit
+nikola build
+nikola github_deploy
+nikola github_deploy
 exit
