@@ -38,6 +38,7 @@ for the current buffer's file name, and the line number at point."
                                         (widen) (line-number-at-pos)))))
 
 (define-key global-map (kbd "C-c p") 'position-to-kill-ring)
+(define-key global-map (kbd "C-c m") 'position-to-kill-ring)
 
 (autoload 'ledger-mode "ledger-mode" "A major mode for Ledger" t)
 (add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))

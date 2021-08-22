@@ -17,7 +17,7 @@
         ,(concat "* Note (%a)\n"
                  "/Entered on/ %U\n" "\n" "%?"))
 
-        ("c" "org-protocol-capture" entry  (file "Capture.org")
+        ("c" "org-protocol-capture" entry  (file "notes.org")
         ,(concat "* Capture %a\n"
                  "/Entered on/ %U\n" "\n" "%?"))))
 (setq org-protocol-default-template-key "c")
@@ -67,6 +67,13 @@
                       (org-agenda-overriding-header "\nInbox\n")))
           (tags "CLOSED>=\"<today>\""
                 ((org-agenda-overriding-header "\nCompleted today\n")))))))
+
+
+
+;;appoint ontime
+(setq appt-message-warning-time 0)      ; 0 minute time before warning
+(setq diary-file "~/.emacs.d/diary")     
+
 
 
 

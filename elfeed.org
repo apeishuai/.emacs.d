@@ -1,2 +1,4 @@
 * blogs                                                        :elfeed:
 ** [[https://www.ruanyifeng.com/blog/atom.xml][阮一峰的网络日志]]                                            :private_blog:
+** [[http://wenshanren.org/?cat=10&tag=en&feed=rss2][wenshan`s blog]]                                              :private_blog:
+   
