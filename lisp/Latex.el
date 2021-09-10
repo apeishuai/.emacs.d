@@ -7,6 +7,7 @@
 (turn-off-auto-fill)
 (linum-mode 1)
 (LaTeX-math-mode 1)
+(auto-complete-mode 1)
 
 (setq TeX-fold-env-spec-list
       (quote ("[figure]" ("figure"))
@@ -31,11 +32,10 @@
 (setq TeX-command-default "XeLaTeX")
 			     ))
 
-
-;;cdltax conf
-;;(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
-;;(add-hook 'cdlatex-mode "cdlatex" "CDLaTeX Mode" t)
-;;(add-hook 'turn-on-cdlatex "cdlatex" "CDLaTeX Mode" nil)
+;;cdlatex配置
+(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
+(autoload 'cdlatex-mode "cdlatex" "CDLaTeX Mode" t)
+(autoload 'turn-on-cdlatex "cdlatex" "CDLaTeX Mode" nil)
 
 
 

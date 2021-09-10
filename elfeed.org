@@ -1,4 +1,31 @@
 * blogs                                                        :elfeed:
 ** [[https://www.ruanyifeng.com/blog/atom.xml][阮一峰的网络日志]]                                            :private_blog:
-** [[http://wenshanren.org/?cat=10&tag=en&feed=rss2][wenshan`s blog]]                                              :private_blog:
-   
+** [[https://blog.codingnow.com/atom.xml][云风的 BLOG独立博客]]                                         :private_blog:
+** [[https://rsshub.app/blogs/wangyin][王垠的博客 - 当然我在扯淡独立博客]]                           :private_blog:
+** [[http://ergoemacs.org/emacs/blog.xml][Xah Emacs Blog独立博客]]                                      :private_blog:
+** [[http://wordyenglish.com/chinese/blog.xml][李杀中文博客独立博客]]                                        :private_blog:
+** [[https://rssfeed.today/weibo/rss/5795500672][小莫mcr的微博轻博客]]                                                 :life:
+** [[https://rsshub.app/xwlb][新闻联播完整版刊物类]]                                              :report:
+** [[https://rsshub.app/banyuetan/byt][时事大事库—半月谈网独立博客]]                                       :report:
+
+** [[https://blog.youxu.info/feed.xml][4G Spaces独立博客]]
+** [[http://wenshanren.org/?cat=10&tag=en&feed=rss2][wenshan`s blog]]
+** [[http://blog.devep.net/virushuo/atom.xml][demo@virushuo独立博客]]
+** [[http://feeds.feedburner.com/blogspot/Dcni][Google Developers Blog刊物类]]
+** [[http://feeds.feedburner.com/tualatrix][I'm TualatriX]]
+** [[http://feeds.feedburner.com/52/azhb][V2EX 周报刊物类]]
+** [[https://zenhabits.net/feed/][zen habits独立博客]]
+** [[https://lgf.im/index.xml][zu1k独立博客]]
+** [[http://nana.blog.paowang.net/feed/][人生不过如此独立博客]]
+** [[http://mindhacks.cn/feed/][刘未鹏 | Mind Hacks独立博客]]
+** [[https://www.sqlsec.com/atom.xml][国光独立博客]]
+** [[https://dingzeyu.li/blog/feed.xml][李丁DLog博客独立博客]]
+** [[https://rsshub.app/manong-weekly][码农周刊刊物类]]
+** [[http://feeds2.feedburner.com/programthink][编程随想的博客独立博客]]
+** [[https://rsshub.app/meituan/tech/home][美团技术团队刊物类]]
+** [[https://fanyi.news/atom.xml][翻译动态刊物类]]
+** [[https://www.chedong.com/blog/atom.xml][车东[Blog^2]独立博客]]
+** [[http://coolshell.cn/feed][酷 壳 - CoolShell.cn独立博客]]
+** [[https://www.yangzhiping.com/feed.xml][阳志平的网志刊物类]]
+** [[https://draveness.me/feed.xml][面向信仰编程独立博客]]
+** [[http://kangjian.net/blog/feed/][风云居 | Less is more独立博客]]

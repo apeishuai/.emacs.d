@@ -68,14 +68,13 @@
           (tags "CLOSED>=\"<today>\""
                 ((org-agenda-overriding-header "\nCompleted today\n")))))))
 
-
+;;basic settings
+(setq org-agenda-start-day "+20d")
+(setq org-agenda-include-diary t)
 
 ;;appoint ontime
 (setq appt-message-warning-time 0)      ; 0 minute time before warning
 (setq diary-file "~/.emacs.d/diary")     
-
-
-
 
 (provide 'GTD)
 

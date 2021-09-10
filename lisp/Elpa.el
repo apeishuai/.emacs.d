@@ -56,12 +56,10 @@
 )
 
 ;;latex-package
-(use-package cdlatex 
-  :ensure t)
-
 (use-package auctex
   :defer t
   :ensure t)
+
 
 ;;scheme-package
 (use-package racket-mode 
@@ -79,10 +77,10 @@
     :ensure t)
 
 ;;(use-package company-lsp
-;;  :ensure t
-;;  :commands company-lsp
-;;  :config
-;;  (push 'company-lsp company-backends))
+  ;;:ensure t
+  ;;:commands company-lsp
+  ;;:config
+  ;;(push 'company-lsp company-backends))
 
 (use-package lsp-ui
     :ensure t)

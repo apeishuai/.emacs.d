@@ -3,22 +3,22 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "~/shuai-files/GTD/notes.org")
- (front-context-string . "* Capture [[http")
- (rear-context-string . "8-20 五 21:33]\n\n\n")
- (position . 2249))
+ (filename . "~/shuai-files/GTD/projects.org")
+ (front-context-string . "*** TODO 内存管理-吃透")
+ (rear-context-string . "-07-29 四 19:46]\n")
+ (position . 602))
 ("elfeed-all"
  (location . "@6-months-ago +unread")
  (tags "unread")
  (handler . elfeed-search-bookmark-handler))
 ("org-refile-last-stored"
- (filename . "~/shuai-files/GTD/notes.org")
- (front-context-string . "* Capture [[http")
- (rear-context-string . "8-20 五 21:33]\n\n\n")
- (position . 2249))
+ (filename . "~/shuai-files/GTD/projects.org")
+ (front-context-string . "*** TODO 内存管理-吃透")
+ (rear-context-string . "-07-29 四 19:46]\n")
+ (position . 602))
 ("org-capture-last-stored"
- (filename . "~/shuai-files/GTD/notes.org")
- (front-context-string . "* Capture [[http")
- (rear-context-string . "-08-21 六 12:54]\n")
- (position . 1604))
+ (filename . "~/shuai-files/GTD/inbox.org")
+ (front-context-string . "* TODO GTD的二次理解与")
+ (rear-context-string . " DONE tes22:55]\n")
+ (position . 1958))
 )
