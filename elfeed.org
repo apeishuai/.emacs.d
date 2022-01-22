@@ -29,3 +29,6 @@
 ** [[https://www.yangzhiping.com/feed.xml][阳志平的网志刊物类]]
 ** [[https://draveness.me/feed.xml][面向信仰编程独立博客]]
 ** [[http://kangjian.net/blog/feed/][风云居 | Less is more独立博客]]
+
+* just link,need deal with later
+* [[https://latex-ninja.com/category/latex/advanced-latex/][Advanced LaTeX – LaTeX Ninja'ing and the Digital Humanities]]

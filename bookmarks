@@ -4,21 +4,21 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
  (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "*** TODO 内存管理-吃透")
- (rear-context-string . "-07-29 四 19:46]\n")
- (position . 602))
+ (front-context-string . "* TODO 新媒体生态\n/En")
+ (rear-context-string . "-10-11 一 20:41]\n")
+ (position . 5866))
 ("elfeed-all"
  (location . "@6-months-ago +unread")
  (tags "unread")
  (handler . elfeed-search-bookmark-handler))
 ("org-refile-last-stored"
  (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "*** TODO 内存管理-吃透")
- (rear-context-string . "-07-29 四 19:46]\n")
- (position . 602))
+ (front-context-string . "* TODO 新媒体生态\n/En")
+ (rear-context-string . "-10-11 一 20:41]\n")
+ (position . 5866))
 ("org-capture-last-stored"
  (filename . "~/shuai-files/GTD/inbox.org")
- (front-context-string . "* TODO GTD的二次理解与")
- (rear-context-string . " DONE tes22:55]\n")
- (position . 1958))
+ (front-context-string . "* TODO 写一个dll文件的")
+ (rear-context-string . "-11-19 五 08:23]\n")
+ (position . 6921))
 )

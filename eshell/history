@@ -1,128 +1,128 @@
-nikola build
-git add .
-git commit -m "second test"
-git push origin main
-nikola github_delay
-nikola github_deploy
+exit
+gcc test.c -O test.o
+gcc test.c -o test.o
+./test.o 
 clear
-nikola new_post
-nikola new_post -e
-ls
-cd posts/
-ls
-cd ..
+touch Makfile
+exit
+make
+make Makefile
+exit
+make
+./text
+./test.o 
 clear
-ls
-nikola new_post -e
-ls
-cd posts/
-ls
-rm test.org 
+exirt
+exit
+cp 01demo.c 02demo.c
+exit
+cpp -c
+cpp -v
 clear
-ls
-rm how-to-build-the-blog.org 
+cpp -v
+exit
+exit 
+pwd
+exit
+wwd
+pwd
+C_INCLUDE_PATH = ~/shuai-files/temp
+cpp -v
+exit
+pwd
+echo $PATH
 clear
+exit
+env
+env > xx.txt
+exit
+echo $C_INCLUDE_PATH
+pwd
+exit
+gcc
+echo gcc
+enc
+env
+echo $path
+echo $PATH
+echo $C_INCLUDE_PATH
+CLEAR
+clear
+echo $LIBRARY_PATH
+exit
+yum installed
+exit
+yum list installed
+exit
+gcc
+echo $PATH
+cd /usr/local/bin
+grep gcc
 ls
 exit
-cd .
-cd ..
-nikola build
-nikola github-depoly
-nikola github_deply
-nikola github_deploy
-ls
-mkdir DataWhale_DataAnalysis
-ls
-cd DataWhale_DataAnalysis/
-ls
-git clone https://github.com/datawhalechina/hands-on-data-analysis.git
-exit
-nikola new_post -e
-nikola new_post 
-cd posq
-cd posts/
-ls
-clear
-ls
-rm shi-jian-guan-li.org 
-nikola new_post
-ls
-rm how_to_set_blog.org
-ls
+man gcc
+info gcc
+gcc help
+gcc --help
+gcc --help > xx.txt
 exit
 ls
-nikola build
-nikola github_deploy
-nikola new_post
+pwd
+gcc tool.c -o tool.o
+gcc tool.c -o tool.o -Wall
+gcc tool.c -o tool.o -Wall -l .
+gcc tool.c -o tool.o -Wall -l ../temp/
+gcc tool.c -o tool.o -Wall -I ../temp/
+ls
 exit
-nikola build
-nikola github_deploy
+gcc main.c -o a.o -Wall -I ../temp/
+ls
+./a.o 
+clear
+gcc main.c -o a.o -Wall -I ../temp/
 exit
-ls
-vi sources.list
-ls
-rm *~
-ls
-clear
-ls
-rm #2*
-ls
-rm #2021-03-17.org#
-ls
-rm '#2021-03-17.org#'
-ls
-rm '#2021-03-27.org#'
-clear
-ls
-ls > Journal.org
-ls
-vi Journal.org 
-nikola new_post -e
-ls
-cd ..
-ls
-cd wxfs\ blog/
-nikola new_post -e
-ls
-cd posts/
-ls
-clear
+mkdir include
 ls
 exit
 ls
-exit
-ls > Journal.org
+mv tool.c include/
+mv tool.h include/
+clear
 ls
 exit
+gcc main.c -o a.o -Wall -I include/
+cd include/
 ls
-vi Journal.org 
-vi Journal.org 
-cd ..
-cd book-notes/
-mv 长尾理论_wait.org ../Reference/
 exit
 cd ..
-cd book-notes/
-clear
-ls
-mv * ../Reference/
-clear
-exit
-ls
-exit
-rm -rf connect_with_Girl/
-exit
-ls
-gcc SqList.c -o SqList.exe
-./SqList.exe 
+gcc main.c -o a.o -Wall -I include/
+gcc main.c -o a.o -w -I include/
+./a
+./a.o 
 clear
 exit
-gcc SqList.c -o SqList.exe
+cd temp/
+ls
+mkdir sr
+rm -rf sr
+mkdir src
+ls
+clear
+ls
+mv include/tool.c src/
+ls
+clear
+ls
+cd src
+ls
 exit
-gcc SqList.c -o SqList.exe
-./SqList.exe 
+cd temp/src/
+ls
 exit
-nikola build
-nikola github_deploy
-nikola github_deploy
+gcc -o a.o tool.c -Wall -I ../include/
 exit
+gcc -o a.o tool.c -Wall -I ../include/
+exit
+gcc -o a.o main.c -Wall -I ../include/
+gcc -o a.o main.c -Wall -I include/
+	exit

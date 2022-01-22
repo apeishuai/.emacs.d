@@ -2,9 +2,10 @@
 (setq package-enable-at-startup nil)
 (setq package-check-signature nil)
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                       ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+                     ("melpa" . "https://melpa.org/packages/")))
 
 (package-initialize)
+
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
@@ -19,6 +20,10 @@
   (require 'org-download)
   (add-hook 'dired-mode-hook 'org-download-enable))
 
+(use-package winum
+  :ensure t
+  :bind ("C-j" . winum-select-window-by-number)
+  :config (winum-mode))
 
 (use-package elfeed-org
   :ensure t)
@@ -85,7 +90,6 @@
 (use-package lsp-ui
     :ensure t)
 
-
 ;;C++ programming
 (use-package ccls
   :ensure t
@@ -97,6 +101,11 @@
 
 ;;ledger 记账
 (use-package ledger-mode
+  :ensure t
+  )
+
+;;Email
+(use-package mu4e-alert
   :ensure t
   )
 

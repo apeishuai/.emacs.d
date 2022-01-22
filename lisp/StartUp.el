@@ -1,3 +1,7 @@
+;;picture-show
+(require 'org-download)
+(add-hook 'dired-mode-hook 'org-download-enable)
+
 ;; 路径设置
 (add-to-list 'load-path "~/htmlize")
 (add-to-list 'auto-mode-alist '("\\.rkt\\'" . racket-mode))
@@ -47,6 +51,9 @@ for the current buffer's file name, and the line number at point."
 (setq browse-url-generic-program
        (executable-find "firefox"))
 
+;;winum (windows)
+(setq window-numbering-assign-func
+      (lambda () (when (equal (buffer-name) "*Calculator*") 9)))
 
 (provide 'StartUp)
 
