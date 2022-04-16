@@ -3,22 +3,22 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "* TODO 新媒体生态\n/En")
- (rear-context-string . "-10-11 一 20:41]\n")
- (position . 5866))
+ (filename . "/media/shuai/wxf files/shuai-files/GTD/projects.org")
+ (front-context-string . "*** TODO mathema")
+ (rear-context-string . "-03-06 日 10:51]\n")
+ (position . 1222))
 ("elfeed-all"
  (location . "@6-months-ago +unread")
  (tags "unread")
  (handler . elfeed-search-bookmark-handler))
 ("org-refile-last-stored"
- (filename . "~/shuai-files/GTD/projects.org")
- (front-context-string . "* TODO 新媒体生态\n/En")
- (rear-context-string . "-10-11 一 20:41]\n")
- (position . 5866))
+ (filename . "/media/shuai/wxf files/shuai-files/GTD/projects.org")
+ (front-context-string . "*** TODO mathema")
+ (rear-context-string . "-03-06 日 10:51]\n")
+ (position . 1222))
 ("org-capture-last-stored"
- (filename . "~/shuai-files/GTD/inbox.org")
- (front-context-string . "* TODO 写一个dll文件的")
- (rear-context-string . "-11-19 五 08:23]\n")
- (position . 6921))
+ (filename . "~/.emacs.d/lisp/$shuaifile/GTD/inbox.org")
+ (front-context-string . "* TODO 123\n/Ente")
+ (rear-context-string)
+ (position . 1))
 )

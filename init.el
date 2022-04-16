@@ -4,6 +4,7 @@
 
 (add-to-list 'load-path
 	     (expand-file-name "lisp" user-emacs-directory))
+(add-hook 'after-init-hook 'global-company-mode)
 
 (require 'Racket)
 (require 'StartUp)
@@ -11,6 +12,8 @@
 (require 'Latex)
 (require 'GTD)
 (require 'RSS)
+(require 'my-find-file)
+(require 'company-mytags)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -26,7 +29,10 @@
      (output-pdf "Evince")
      (output-html "xdg-open")))
  '(ledger-reports
-   '(("report1" "ledger ")
+   '(("balace" "ledger ")
+     ("balance" "ledger")
+     ("demo" "ledger ")
+     ("report1" "ledger ")
      ("xx" "ledger ")
      ("test1" "ledger ")
      ("bal" "%(binary) -f %(ledger-file) bal")
