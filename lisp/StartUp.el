@@ -2,6 +2,10 @@
 (require 'org-download)
 (add-hook 'dired-mode-hook 'org-download-enable)
 
+;;环境变量设置
+(setenv "root-linux-shuai-files" "/media/shuai/wxf files/shuai-files/")
+(setenv "root-windows-shuai-files" "/media/shuai/wxf files/shuai-files/")
+
 ;; 路径设置
 (add-to-list 'load-path "~/htmlize")
 (add-to-list 'auto-mode-alist '("\\.rkt\\'" . racket-mode))
@@ -17,6 +21,8 @@
 (switch-to-next-buffer)
 (other-window 1)
 
+(tool-bar-mode 0)
+(menu-bar-mode 0)
 
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil))) 
 (add-hook 'window-setup-hook 'toggle-frame-maximized)
@@ -49,7 +55,7 @@ for the current buffer's file name, and the line number at point."
 
 ;;open link using firefox
 (setq browse-url-generic-program
-       (executable-find "firefox"))
+       (executable-find "google-chrome"))
 
 ;;winum (windows)
 (setq window-numbering-assign-func

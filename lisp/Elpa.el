@@ -36,6 +36,9 @@
 (use-package company
   :ensure t
   )
+(use-package auto-complete
+  :ensure t
+  )
  
 (use-package which-key
   :ensure t
@@ -105,8 +108,8 @@
   )
 
 ;;Email
-(use-package mu4e-alert
-  :ensure t
-  )
+;;(use-package mu4e-alert
+  ;;:ensure t
+  ;;)
 
 (provide 'Elpa)

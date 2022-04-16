@@ -1,7 +1,7 @@
 ;;Files
-(setq org-directory "~/shuai-files/GTD")
-(setq org-agenda-files (list "~/shuai-files/GTD/inbox.org" "~/shuai-files/GTD/agenda.org"
-			     "~/shuai-files/GTD/notes.org"  "~/shuai-files/GTD/projects.org"))
+(setq org-directory "/media/shuai/wxf files/shuai-files/GTD")
+(setq org-agenda-files (list "/media/shuai/wxf files/shuai-files/GTD/inbox.org" "/media/shuai/wxf files/shuai-files/GTD/agenda.org"
+			     "/media/shuai/wxf files/shuai-files/GTD/notes.org"  "/media/shuai/wxf files/shuai-files/GTD/projects.org"))
 
 ;;Capture
 (setq org-capture-templates

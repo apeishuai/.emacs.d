@@ -1,4 +1,4 @@
-;;auctex con
+;auctex con
 (setq Tex-auto-save t)
 (setq Tex-parse-self t)
 (setq-default Tex-master nil)
