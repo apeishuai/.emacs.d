@@ -2,6 +2,8 @@
 (add-to-list 'load-path "~/shuai-files/GTD/")
 (require 'org-protocol)
 
+(setq org-modules '(maybe-some-module org-habit-pus maybe-some-other-module))
+
 (add-to-list 'load-path
 	     (expand-file-name "lisp" user-emacs-directory))
 (add-hook 'after-init-hook 'global-company-mode)
@@ -13,7 +15,8 @@
 (require 'GTD)
 (require 'RSS)
 (require 'my-find-file)
-(require 'company-mytags)
+;;(require 'company-mytags)
+(require 'org-habit-plus)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -50,3 +53,4 @@
  ;; If there is more than one, they won't work right.
  )
 
+(put 'erase-buffer 'disabled nil)

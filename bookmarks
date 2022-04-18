@@ -17,8 +17,8 @@
  (rear-context-string . "-03-06 日 10:51]\n")
  (position . 1222))
 ("org-capture-last-stored"
- (filename . "~/.emacs.d/lisp/$shuaifile/GTD/inbox.org")
- (front-context-string . "* TODO 123\n/Ente")
- (rear-context-string)
- (position . 1))
+ (filename . "/media/shuai/wxf files/shuai-files/GTD/inbox.org")
+ (front-context-string . "* TODO Linux sof")
+ (rear-context-string . "-04-17 日 00:23]\n")
+ (position . 11561))
 )

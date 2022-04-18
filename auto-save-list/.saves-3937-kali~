@@ -1,3 +1,7 @@
+/home/shuai/.emacs.d/lisp/RSS.el
+/home/shuai/.emacs.d/lisp/#RSS.el#
+/home/shuai/.emacs.d/lisp/tags
+/home/shuai/.emacs.d/lisp/#tags#
 /home/shuai/.emacs.d/lisp/company-mytags.el
 /home/shuai/.emacs.d/lisp/#company-mytags.el#
 /home/shuai/.emacs.d/lisp/company-mytags
@@ -20,8 +24,6 @@
 /home/shuai/.emacs.d/lisp/#Elpa.el#
 /home/shuai/.emacs.d/elpa/company-20210516.211/company-gtags.el
 /home/shuai/.emacs.d/elpa/company-20210516.211/#company-gtags.el#
-/home/shuai/.emacs.d/lisp/RSS.el
-/home/shuai/.emacs.d/lisp/#RSS.el#
 /home/shuai/.emacs.d/lisp/Racket.el
 /home/shuai/.emacs.d/lisp/#Racket.el#
 /home/shuai/.emacs.d/lisp/FindFile.el
