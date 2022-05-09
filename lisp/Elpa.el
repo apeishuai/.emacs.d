@@ -10,6 +10,7 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+
 (use-package ivy
   :ensure t)
 
@@ -31,11 +32,14 @@
 ;;Blog
 (use-package nikola 
   :ensure t)
+
 (use-package try
   :ensure t)
+
 (use-package company
   :ensure t
   )
+
 (use-package auto-complete
   :ensure t
   )
@@ -50,7 +54,11 @@
 
 (use-package keyfreq
   :ensure t
+  :after org
   :config
+  (with-eval-after-load 'evil
+      (evil-define-key 'normal outline-mode-map (kbd "<tab>") #'org-cycle)
+      (evil-define-key 'normal outline-mode-map (kbd "TAB") #'org-cycle))
   (keyfreq-mode)
   (keyfreq-autosave-mode))
 

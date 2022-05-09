@@ -3,22 +3,18 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "/media/shuai/wxf files/shuai-files/GTD/projects.org")
- (front-context-string . "*** TODO mathema")
- (rear-context-string . "-03-06 日 10:51]\n")
- (position . 1222))
-("elfeed-all"
- (location . "@6-months-ago +unread")
- (tags "unread")
- (handler . elfeed-search-bookmark-handler))
+ (filename . "/media/shuai/wxf files/shuai-files/GTD/Reference.org")
+ (front-context-string . "* TODO [[https:/")
+ (rear-context-string . "5-08 日 08:12]\n\n\n")
+ (position . 145))
 ("org-refile-last-stored"
- (filename . "/media/shuai/wxf files/shuai-files/GTD/projects.org")
- (front-context-string . "*** TODO mathema")
- (rear-context-string . "-03-06 日 10:51]\n")
- (position . 1222))
+ (filename . "/media/shuai/wxf files/shuai-files/GTD/finished.org")
+ (front-context-string . "* DONE 写文章 浏览国外网")
+ (rear-context-string . "-05-09 一 08:51]\n")
+ (position . 11684))
 ("org-capture-last-stored"
- (filename . "/media/shuai/wxf files/shuai-files/GTD/inbox.org")
- (front-context-string . "* TODO Linux sof")
- (rear-context-string . "-04-17 日 00:23]\n")
- (position . 11561))
+ (filename . "/media/shuai/wxf files/shuai-files/wxf`s blog/posts/wxfs-booklist.org")
+ (front-context-string . "* Title: 《置身事内》\n")
+ (rear-context-string . "#+OPTIONS: \\n:t\n")
+ (position . 202))
 )
