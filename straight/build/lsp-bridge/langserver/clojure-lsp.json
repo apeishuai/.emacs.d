@@ -1,8 +1,0 @@
-{
-  "name": "clojure-lsp",
-  "languageId": "clojure",
-  "command": ["clojure-lsp"],
-  "settings": {},
-  "projectFiles": ["deps.edn"],
-  "support-single-file": false
-}
