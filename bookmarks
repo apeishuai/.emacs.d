@@ -1,0 +1,19 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored"
+ (filename . "/c/Users/whens/Nutstore/1/docs/GTD/inbox.org")
+ (front-context-string . "* TODO 启动周报，并在周报")
+ (rear-context-string . "2-17 Mon 16:18]\n")
+ (position . 34605)
+ (last-modified 26547 50669 204067 100000))
+("elfeed-all"
+ (location . "@6-months-ago +unread")
+ (tags "unread")
+ (handler . elfeed-search-bookmark-handler))
+("elfeed @6-months-ago +unread"
+ (location . "@6-months-ago +unread")
+ (tags "unread")
+ (handler . elfeed-search-bookmark-handler))
+)
