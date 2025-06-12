@@ -5,7 +5,7 @@
 (require 'pac)
 (require 'GTD)
 (require 'lsp)
-(require 'rss)
+;(require 'rss)
 
 
 ;;(require 'plantuml)

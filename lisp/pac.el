@@ -11,6 +11,10 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
+
+(setq straight-repository-branch "master")
+(setq straight-repositories `(("melpa" . "https://github.com/melpa/melpa")
+			      ("emacs-deferred" . "https://github.com/kiwanami/emacs-deferred")))
 (setq straight-use-package-by-default t)
 (straight-use-package 'use-package)
 
@@ -32,29 +36,26 @@
   :init
   (global-lsp-bridge-mode)
   :config
-  (setq lsp-bridge-python-command "/d/softwares/anaconda3/python.exe")
+  ;(setq lsp-bridge-python-command "/d/softwares/anaconda3/python.exe")
   )
 
 
-(use-package epc
-  :straight t)
+
+;(use-package epc
+  ;:straight t)
 (use-package ctable
   :straight t)
 (use-package posframe
   :straight t)
 
-
-
-
-(use-package elfeed
-  :ensure t)
-(use-package elfeed-org
-  :ensure t
-  :config
-  (elfeed-org)
-  (setq rmh-elfeed-org-files (list "~/.emacs.d/data/elfeed.org"))
-  )
-
+;(use-package elfeed
+  ;:ensure t)
+;(use-package elfeed-org
+  ;:ensure t
+  ;:config
+  ;(elfeed-org)
+  ;(setq rmh-elfeed-org-files (list "~/.emacs.d/data/elfeed.org"))
+  ;)
 
 
 (use-package winum

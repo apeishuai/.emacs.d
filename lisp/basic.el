@@ -1,14 +1,31 @@
-(setq default-directory "/c/Users/whens/Nutstore/1/docs")
-
-(setq url-proxy-services
-   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-	     ("http" . "127.0.0.1:7890")
-	     ("https" . "127.0.0.1:7890")
-	     ("socks5" . "127.0.0.1:7890")))
-
 ;;env set
 (setq config-directory "~/.emacs.d/lisp/")
-(setenv "notes-home" "d:/g/area/emacs-notes/")
+
+(cond
+
+ ((eq system-type 'gnu/linux)
+  (message "Detected Linux system")
+  (setq default-directory "~/")
+  (setq url-proxy-services
+        '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+          ("http" . "127.0.0.1:20171")
+          ("https" . "127.0.0.1:20171")
+          ("socks5" . "127.0.0.1:20170")))
+  )
+
+ ((eq system-type 'windows-nt)
+  (message "Detected Windows system")
+  (setq default-directory "c:/Users/whens/Nutstore/1/docs")
+  (setq url-proxy-services
+        '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+          ("http" . "127.0.0.1:7890")
+          ("https" . "127.0.0.1:7890")
+          ("socks5" . "127.0.0.1:7890")))
+  )
+ )
+
+
+
 
 (setenv "PATH"
 	(concat

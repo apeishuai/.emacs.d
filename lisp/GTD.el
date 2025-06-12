@@ -2,7 +2,21 @@
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
 
-(setq org-directory "/c/Users/whens/Nutstore/1/docs/GTD")
+
+(cond
+ ((eq system-type 'gnu/linux)
+  (message "Detected Linux system")
+  (setq org-directory "~/")
+  (setq org-refile-files (directory-files "~/" t "\\.org$"))
+  )
+
+ ((eq system-type 'windows-nt)
+  (message "Detected Windows system")
+  (setq org-directory "/c/Users/whens/Nutstore/1/docs/GTD")
+  (setq org-refile-files (directory-files "/c/Users/whens/Nutstore/1/docs/GTD" t "\\.org$"))
+ )
+)
+
 (setq org-capture-templates
       `(("i" "Inbox" entry  (file "inbox.org")
         ,(concat "* TODO %?\n"
@@ -12,7 +26,8 @@
 
 
 (setq org-agenda-files '("inbox.org" "area.org"  "rsc.org"))
-(setq org-refile-files (directory-files "/c/Users/whens/Nutstore/1/docs/GTD" t "\\.org$"))
+
+
 
 ;; Refile
 (setq org-refile-use-outline-path 'file)
