@@ -25,8 +25,6 @@
  )
 
 
-
-
 (setenv "PATH"
 	(concat
 	 ;"" ";"
